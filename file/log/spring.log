@@ -1,0 +1,59 @@
+2019-11-18 12:48:00.594  INFO 4859 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 4859 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-18 12:48:00.595  INFO 4859 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-18 12:48:02.117  INFO 4859 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-18 12:48:02.146  INFO 4859 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-18 12:48:02.146  INFO 4859 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 12:48:02.324  INFO 4859 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-18 12:48:02.325  INFO 4859 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1696 ms
+2019-11-18 12:48:02.522  INFO 4859 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 12:48:02.563  INFO 4859 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-18 12:48:02.606  WARN 4859 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-18 12:48:02.831  INFO 4859 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-18 12:48:02.839  INFO 4859 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 2.948 seconds (JVM running for 3.969)
+2019-11-18 14:26:17.135  INFO 4859 --- [RMI TCP Connection(111)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-18 14:26:17.138  INFO 4859 --- [RMI TCP Connection(111)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:26:18.540  INFO 6868 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 6868 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-18 14:26:18.541  INFO 6868 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-18 14:26:19.085  INFO 6868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-18 14:26:19.101  INFO 6868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-18 14:26:19.102  INFO 6868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 14:26:19.136  INFO 6868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-18 14:26:19.136  INFO 6868 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 557 ms
+2019-11-18 14:26:19.252  INFO 6868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:26:19.287  INFO 6868 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-18 14:26:19.326  WARN 6868 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-18 14:26:19.443  INFO 6868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-18 14:26:19.452  INFO 6868 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.163 seconds (JVM running for 1.635)
+2019-11-18 14:27:26.133  INFO 6868 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-18 14:27:26.135  INFO 6868 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:27:27.266  INFO 7034 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 7034 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-18 14:27:27.267  INFO 7034 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-18 14:27:27.736  INFO 7034 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-18 14:27:27.740  INFO 7034 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-18 14:27:27.740  INFO 7034 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 14:27:27.770  INFO 7034 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-18 14:27:27.770  INFO 7034 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 482 ms
+2019-11-18 14:27:27.884  INFO 7034 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:27:27.947  INFO 7034 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-18 14:27:27.990  WARN 7034 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-18 14:27:28.047  INFO 7034 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-18 14:27:28.050  INFO 7034 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 0.954 seconds (JVM running for 1.299)
+2019-11-18 14:27:41.148  INFO 7034 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-18 14:27:41.151  INFO 7034 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:27:42.244  INFO 7119 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 7119 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-18 14:27:42.246  INFO 7119 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-18 14:27:42.748  INFO 7119 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-18 14:27:42.752  INFO 7119 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-18 14:27:42.752  INFO 7119 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-18 14:27:42.785  INFO 7119 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-18 14:27:42.785  INFO 7119 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 515 ms
+2019-11-18 14:27:42.883  INFO 7119 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:27:42.917  INFO 7119 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-18 14:27:42.947  WARN 7119 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-18 14:27:42.992  INFO 7119 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-18 14:27:42.995  INFO 7119 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 0.961 seconds (JVM running for 1.291)
+2019-11-18 14:28:13.575  INFO 7119 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-18 14:28:13.578  INFO 7119 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-18 14:28:13.605  INFO 7119 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2019-11-18 14:51:24.163  INFO 7119 --- [RMI TCP Connection(36)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-18 14:51:24.169  INFO 7119 --- [RMI TCP Connection(36)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

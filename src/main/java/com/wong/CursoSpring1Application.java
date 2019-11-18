@@ -6,7 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.wong.beans.PostComponent;
+import com.wong.components.PostComponent;
 import com.wong.model.Conexion;
 import com.wong.services.PostService;
 
@@ -27,7 +27,7 @@ public class CursoSpring1Application implements CommandLineRunner {
 	}
 
 	@Override
-	public void run(String... args) throws Exception {
+	public void run(String... args) throws Exception {	
 		postService.validationId(PostComponent.getPost()).forEach(post -> {
 						System.out.println(post.getTitulo());
 					});

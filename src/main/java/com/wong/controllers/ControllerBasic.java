@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.wong.beans.PostComponent;
+import com.wong.components.PostComponent;
 import com.wong.configuration.Paginas;
 import com.wong.entitys.Post;
 

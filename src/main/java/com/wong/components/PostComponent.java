@@ -1,14 +1,17 @@
-package com.wong.beans;
+package com.wong.components;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import com.wong.entitys.Post;
 
 @Component
+@Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
 public class PostComponent {
 	
 	public List<Post> getPost() {

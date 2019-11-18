@@ -2,6 +2,7 @@ package com.wong.services.impl;
 
 import java.util.List;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import com.wong.entitys.Post;
