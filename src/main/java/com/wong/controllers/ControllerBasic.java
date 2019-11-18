@@ -1,42 +1,67 @@
 package com.wong.controllers;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 
+import java.util.List;
+import java.util.stream.Collectors;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.wong.beans.PostComponent;
 import com.wong.configuration.Paginas;
 import com.wong.entitys.Post;
 
 @Controller
 @RequestMapping("/home")
 public class ControllerBasic {
-
-	public List<Post> getPost() {
-		List<Post> post = new ArrayList<>();
-		post.add(new Post(1, "Desarrollo web es un término que define la creación de sitios web para Internet", "http://localhost:8080/img/test.jpeg", new Date(), "Desarrollo Web"));
-		post.add(new Post(2, "Desarrollo web es un término que define la creación de sitios web para Internet", "http://localhost:8080/img/test.jpeg", new Date(), "Desarrollo Front-End"));
-		post.add(new Post(3, "Desarrollo web es un término que define la creación de sitios web para Internet", "http://localhost:8080/img/test.jpeg", new Date(), "Desarrollo Backend"));
-		post.add(new Post(4, "Desarrollo web es un término que define la creación de sitios web para Internet", "http://localhost:8080/img/test.jpeg", new Date(), "Desarrollo UX/UI"));
-		return post;
-	}
+	@Autowired
+	private PostComponent _postComponent;
 	
-	@GetMapping(path = {"/post", "/"})
+	@GetMapping(path = {"/posts", "/"})
 	public String saludar(Model model) {
-		model.addAttribute("posts", this.getPost());
+		model.addAttribute("posts", this._postComponent.getPost());
 		return "index";
 	}
 	
 	@GetMapping(path = "/public")
 	public ModelAndView post() {
 		ModelAndView modelAndView = new ModelAndView(Paginas.HOME);
-		modelAndView.addObject("posts", this.getPost());
+		modelAndView.addObject("posts", this._postComponent.getPost());
 		return modelAndView;
 	}
 	
+	@GetMapping(path = {"post/{post}"})
+	public ModelAndView getPostIndividual(
+			@PathVariable(required = true, name="post")
+			int id
+			) {
+		ModelAndView modelAndView = new ModelAndView(Paginas.POST);
+		
+		List<Post> postFiltrado = this._postComponent.getPost()
+										.stream().filter( p -> {
+											return p.getId() == id;
+										}).collect(Collectors.toList());
+		
+		modelAndView.addObject("post", postFiltrado.get(0));
+		return modelAndView;
+	}
+	
+	@GetMapping(path = "/postNew")
+	public ModelAndView getForm() {
+		return new ModelAndView("form").addObject("post", new Post());
+	}
+	
+	@PostMapping("/addNewPost")
+	public String addNewPost(Post post, Model model) {
+		List<Post> posts = this._postComponent.getPost();
+		posts.add(post);
+		model.addAttribute("posts", posts);
+		return "index";
+		
+	}
 }

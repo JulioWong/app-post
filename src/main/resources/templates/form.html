@@ -13,7 +13,6 @@
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
-
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item active">
@@ -43,52 +42,41 @@
 	    </form>
 	  </div>
 	</nav>
-
-	<div class="jumbotron">
-	  <h1 class="display-4">Hello, world!</h1>
-	  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-	  <hr class="my-4">
-	  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-	  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-	</div>
-	
 	
 	<div class="container">
-	  <div class="row">
-	  
-	    <div th:each="post : ${posts}" class="col-3">
-			<div class="card" style="width: 18rem;">
-			  <img th:src="${post.uriImg}" class="card-img-top" alt="test">
-			  <div class="card-body">
-			    <h5 th:text=${post.titulo} class="card-title">Card title</h5>
-			    <p th:text=${post.descripcion} class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-			    <a th:href="@{'/home/post/'} + ${post.id}" class="btn btn-primary">Go somewhere</a>
-			  </div>
-			</div>
+	    <div class="row">
+	    	<div class="col-12">
+	    		<h1>Nuevo Post</h1>
+	    	</div>
+	    	<div class="col-12">
+	    		<form th:action="@{/home/addNewPost}" th:object="${post}" method="POST">
+				  <div class="form-row">
+				    <div class="form-group col-md-6">
+				      <label for="id">ID</label>
+				      <input th:field="*{id}" th:value="*{id}" type="number" class="form-control" id="id" placeholder="Identificador">
+				    </div>
+				    <div class="form-group col-md-6">
+				      <label for="descripcion">Descripción</label>
+				      <input th:field="*{descripcion}" th:value="*{descripcion}" type="text" class="form-control" id="descripcion" placeholder="Descripcion">
+				    </div>
+				  </div>
+				  <div class="form-row">
+				  	<div class="form-group col-md-6">
+					    <label for="imagen">Imagen</label>
+					    <input th:field="*{uriImg}" th:value="*{uriImg}" type="text" class="form-control" id="imagen" placeholder="Imagen">
+				  	</div>
+				  	<div class="form-group col-md-6">
+					    <label for="titulo">Titulo</label>
+					    <input th:field="*{titulo}" th:value="*{titulo}" type="text" class="form-control" id="titulo" placeholder="Titulo">
+					  </div>
+				  </div>
+				  <button type="submit" class="btn btn-primary">Agregar</button>
+				</form>
+	    	</div>
 	    </div>
-	    
-	  </div>
-
-	  <div class="row">
-	    <div class="col-12">
-	    	<nav style="margin-top:10px" aria-label="Page navigation example">
-			  <ul class="pagination justify-content-center">
-			    <li class="page-item disabled">
-			      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-			    </li>
-			    <li class="page-item"><a class="page-link" href="#">1</a></li>
-			    <li class="page-item"><a class="page-link" href="#">2</a></li>
-			    <li class="page-item"><a class="page-link" href="#">3</a></li>
-			    <li class="page-item">
-			      <a class="page-link" href="#">Next</a>
-			    </li>
-			  </ul>
-			</nav>
-	    </div>
-	  </div>
 	</div>
 	<footer>
 		<p class="text-center">Curso 1</p>
 	</footer>
-</body>
+  </body>
 </html>
