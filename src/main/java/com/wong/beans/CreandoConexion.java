@@ -1,6 +1,9 @@
 package com.wong.beans;
 
+import javax.sql.DataSource;
+
 import org.springframework.context.annotation.Bean;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.stereotype.Component;
 
 import com.wong.model.Conexion;
@@ -19,5 +22,15 @@ public class CreandoConexion {
 		conexion.setDb("mysql");
 		conexion.setUrl("localhost");
 		return conexion;
+	}
+	
+	@Bean
+	public DataSource getDataSource() {
+		DriverManagerDataSource datasource = new DriverManagerDataSource();
+		datasource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		datasource.setUrl("jdbc:mysql://localhost:3306/blog?useSSL=false");
+		datasource.setUsername("administrator");
+		datasource.setPassword("very_strong_password");
+		return datasource;
 	}
 }
