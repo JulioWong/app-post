@@ -220,3 +220,300 @@
 2019-11-19 10:55:02.086  WARN 21784 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
 2019-11-19 10:55:02.192  INFO 21784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2019-11-19 10:55:02.194  INFO 21784 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.296 seconds (JVM running for 1.643)
+2019-11-19 11:07:30.072  INFO 21784 --- [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:07:30.076  INFO 21784 --- [RMI TCP Connection(24)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:07:31.507  INFO 22435 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 22435 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:07:31.509  INFO 22435 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:07:31.950  INFO 22435 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:07:31.963  INFO 22435 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-11-19 11:07:32.127  INFO 22435 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:07:32.278  INFO 22435 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:07:32.283  INFO 22435 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:07:32.283  INFO 22435 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:07:32.328  INFO 22435 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:07:32.329  INFO 22435 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 790 ms
+2019-11-19 11:07:32.479  INFO 22435 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:07:32.517  INFO 22435 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:07:32.563  WARN 22435 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:07:32.658  INFO 22435 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:07:32.660  INFO 22435 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.393 seconds (JVM running for 1.944)
+2019-11-19 11:08:20.720  INFO 22550 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 22550 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:08:20.722  INFO 22550 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:08:21.076  INFO 22550 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:08:21.085  INFO 22550 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-11-19 11:08:21.234  INFO 22550 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:08:21.360  INFO 22550 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:08:21.364  INFO 22550 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:08:21.365  INFO 22550 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:08:21.432  INFO 22550 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:08:21.432  INFO 22550 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 682 ms
+2019-11-19 11:08:21.587  INFO 22550 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:08:21.627  INFO 22550 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:08:21.677  WARN 22550 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:08:21.767  INFO 22550 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-11-19 11:08:21.807  INFO 22550 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-19 11:08:21.899 ERROR 22550 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2019-11-19 11:08:21.905  INFO 22550 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:08:30.275  INFO 22435 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:08:30.282  INFO 22435 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:08:31.583  INFO 22602 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 22602 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:08:31.584  INFO 22602 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:08:31.934  INFO 22602 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:08:31.951  INFO 22602 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-11-19 11:08:32.091  INFO 22602 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:08:32.214  INFO 22602 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:08:32.218  INFO 22602 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:08:32.218  INFO 22602 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:08:32.254  INFO 22602 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:08:32.254  INFO 22602 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 631 ms
+2019-11-19 11:08:32.392  INFO 22602 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:08:32.427  INFO 22602 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:08:32.464  WARN 22602 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:08:32.563  INFO 22602 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:08:32.566  INFO 22602 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.186 seconds (JVM running for 1.623)
+2019-11-19 11:23:59.637  INFO 22602 --- [RMI TCP Connection(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:23:59.639  INFO 22602 --- [RMI TCP Connection(26)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:24:38.489  INFO 23629 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 23629 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:24:38.490  INFO 23629 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:24:38.833  INFO 23629 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:24:38.847  INFO 23629 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-11-19 11:24:38.998  INFO 23629 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:24:39.126  INFO 23629 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:24:39.131  INFO 23629 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:24:39.131  INFO 23629 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:24:39.213  INFO 23629 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:24:39.213  INFO 23629 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 701 ms
+2019-11-19 11:24:39.377  INFO 23629 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:24:39.428  INFO 23629 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:24:39.467  WARN 23629 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:24:39.569  INFO 23629 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:24:39.572  INFO 23629 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.279 seconds (JVM running for 1.763)
+2019-11-19 11:24:39.603  INFO 23629 --- [main] ication$$EnhancerBySpringCGLIB$$453fb7bb : INSERT INTO permiso (Nombre) VALUES ("Administracion");
+2019-11-19 11:25:06.096  INFO 23629 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:25:06.098  INFO 23629 --- [RMI TCP Connection(7)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:25:07.331  INFO 23747 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 23747 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:25:07.339  INFO 23747 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:25:07.690  INFO 23747 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:25:07.707  INFO 23747 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-11-19 11:25:07.857  INFO 23747 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:25:07.972  INFO 23747 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:25:07.977  INFO 23747 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:25:07.977  INFO 23747 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:25:08.038  INFO 23747 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:25:08.038  INFO 23747 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 673 ms
+2019-11-19 11:25:08.179  INFO 23747 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:25:08.214  INFO 23747 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:25:08.250  WARN 23747 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:25:08.350  INFO 23747 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:25:08.354  INFO 23747 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.239 seconds (JVM running for 1.64)
+2019-11-19 11:25:08.355  INFO 23747 --- [main] ication$$EnhancerBySpringCGLIB$$177e8dfb : class com.wong.CursoSpring1Application$$EnhancerBySpringCGLIB$$177e8dfb
+2019-11-19 11:25:08.355  INFO 23747 --- [main] ication$$EnhancerBySpringCGLIB$$177e8dfb : INSERT INTO permiso (Nombre) VALUES ("Administracion");
+2019-11-19 11:25:44.693  INFO 23747 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:25:44.701  INFO 23747 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:25:45.825  INFO 23863 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 23863 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:25:45.827  INFO 23863 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:25:46.124  INFO 23863 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:25:46.134  INFO 23863 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-11-19 11:25:46.266  INFO 23863 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:25:46.373  INFO 23863 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:25:46.378  INFO 23863 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:25:46.378  INFO 23863 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:25:46.410  INFO 23863 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:25:46.410  INFO 23863 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 562 ms
+2019-11-19 11:25:46.535  INFO 23863 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:25:46.566  INFO 23863 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:25:46.597  WARN 23863 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:25:46.681  INFO 23863 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:25:46.684  INFO 23863 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.021 seconds (JVM running for 1.315)
+2019-11-19 11:25:46.684  INFO 23863 --- [main] ication$$EnhancerBySpringCGLIB$$6ab9d301 : class com.wong.CursoSpring1Application$$EnhancerBySpringCGLIB$$6ab9d301
+2019-11-19 11:34:10.926  INFO 23863 --- [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:34:10.934  INFO 23863 --- [RMI TCP Connection(20)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:34:12.597  INFO 24618 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 24618 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:34:12.598  INFO 24618 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:34:12.952  INFO 24618 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:34:12.966  INFO 24618 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-11-19 11:34:13.116  INFO 24618 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:34:13.245  INFO 24618 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:34:13.250  INFO 24618 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:34:13.250  INFO 24618 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:34:13.289  INFO 24618 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:34:13.289  INFO 24618 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 662 ms
+2019-11-19 11:34:13.431  INFO 24618 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:34:13.467  INFO 24618 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:34:13.504  WARN 24618 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:34:13.615  INFO 24618 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:34:13.618  INFO 24618 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.234 seconds (JVM running for 1.881)
+2019-11-19 11:34:13.619  INFO 24618 --- [main] ication$$EnhancerBySpringCGLIB$$7a8e3371 : class com.wong.CursoSpring1Application$$EnhancerBySpringCGLIB$$7a8e3371
+2019-11-19 11:34:13.996  INFO 24618 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-19 11:34:14.008 ERROR 24618 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768) ~[spring-boot-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322) ~[spring-boot-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	at com.wong.CursoSpring1Application.main(CursoSpring1Application.java:28) ~[classes/:na]
+Caused by: org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [$[cursospring.jdbc.import.ruta]]; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '$[cursospring.jdbc.import.ruta]' at line 1
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:388) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:418) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at com.wong.CursoSpring1Application.run(CursoSpring1Application.java:44) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784) ~[spring-boot-2.2.1.RELEASE.jar:2.2.1.RELEASE]
+	... 5 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '$[cursospring.jdbc.import.ruta]' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.15.jar:8.0.15]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.15.jar:8.0.15]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.15.jar:8.0.15]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782) ~[mysql-connector-java-8.0.15.jar:8.0.15]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666) ~[mysql-connector-java-8.0.15.jar:8.0.15]
+	at org.springframework.jdbc.core.JdbcTemplate$1ExecuteStatementCallback.doInStatement(JdbcTemplate.java:409) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	... 8 common frames omitted
+
+2019-11-19 11:34:14.010  INFO 24618 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:36:26.672  INFO 24825 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 24825 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:36:26.719  INFO 24825 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:36:33.034  INFO 24825 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:36:33.457  INFO 24825 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 226ms. Found 0 repository interfaces.
+2019-11-19 11:36:35.027  INFO 24825 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:36:35.972  INFO 24825 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:36:35.979  INFO 24825 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:36:35.979  INFO 24825 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:36:36.251  INFO 24825 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:36:36.251  INFO 24825 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9401 ms
+2019-11-19 11:36:36.743  INFO 24825 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:36:36.837  INFO 24825 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:36:37.028  WARN 24825 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:36:37.774  INFO 24825 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:36:37.776  INFO 24825 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 13.184 seconds (JVM running for 16.714)
+2019-11-19 11:38:01.835  INFO 24825 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:38:01.842  INFO 24825 --- [RMI TCP Connection(12)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:38:03.193  INFO 24968 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 24968 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:38:03.200  INFO 24968 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:38:03.474  INFO 24968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:38:03.482  INFO 24968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-11-19 11:38:03.601  INFO 24968 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:38:03.704  INFO 24968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:38:03.709  INFO 24968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:38:03.709  INFO 24968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:38:03.763  INFO 24968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:38:03.763  INFO 24968 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 543 ms
+2019-11-19 11:38:03.888  INFO 24968 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:38:03.921  INFO 24968 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:38:03.958  WARN 24968 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:38:04.040  INFO 24968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:38:04.042  INFO 24968 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.063 seconds (JVM running for 1.496)
+2019-11-19 11:38:04.043  INFO 24968 --- [main] ication$$EnhancerBySpringCGLIB$$5934b85d : class com.wong.CursoSpring1Application$$EnhancerBySpringCGLIB$$5934b85d
+2019-11-19 11:39:50.335  INFO 24968 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:39:50.341  INFO 24968 --- [RMI TCP Connection(13)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:39:51.409  INFO 25092 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 25092 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:39:51.411  INFO 25092 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:39:51.703  INFO 25092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:39:51.713  INFO 25092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-11-19 11:39:51.843  INFO 25092 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:39:51.949  INFO 25092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:39:51.953  INFO 25092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:39:51.953  INFO 25092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:39:51.985  INFO 25092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:39:51.985  INFO 25092 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 553 ms
+2019-11-19 11:39:52.113  INFO 25092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:39:52.162  INFO 25092 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:39:52.192  WARN 25092 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:39:52.299  INFO 25092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:39:52.302  INFO 25092 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.055 seconds (JVM running for 1.372)
+2019-11-19 11:39:52.303  INFO 25092 --- [main] ication$$EnhancerBySpringCGLIB$$b0acce38 : class com.wong.CursoSpring1Application$$EnhancerBySpringCGLIB$$b0acce38
+2019-11-19 11:40:31.975  INFO 25092 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:40:31.981  INFO 25092 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:40:33.068  INFO 25204 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 25204 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:40:33.070  INFO 25204 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:40:33.373  INFO 25204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:40:33.382  INFO 25204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-11-19 11:40:33.507  INFO 25204 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:40:33.615  INFO 25204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:40:33.619  INFO 25204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:40:33.620  INFO 25204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:40:33.652  INFO 25204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:40:33.653  INFO 25204 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 562 ms
+2019-11-19 11:40:33.785  INFO 25204 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:40:33.818  INFO 25204 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:40:33.857  WARN 25204 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:40:33.948  INFO 25204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:40:33.950  INFO 25204 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.042 seconds (JVM running for 1.32)
+2019-11-19 11:40:33.951  INFO 25204 --- [main] ication$$EnhancerBySpringCGLIB$$177e8dfb : class com.wong.CursoSpring1Application$$EnhancerBySpringCGLIB$$177e8dfb
+2019-11-19 11:40:58.219  INFO 25204 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:40:58.225  INFO 25204 --- [RMI TCP Connection(8)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:40:59.271  INFO 25293 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 25293 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:40:59.273  INFO 25293 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:40:59.555  INFO 25293 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:40:59.564  INFO 25293 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-11-19 11:40:59.687  INFO 25293 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:40:59.790  INFO 25293 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:40:59.795  INFO 25293 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:40:59.795  INFO 25293 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:40:59.853  INFO 25293 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:40:59.853  INFO 25293 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 559 ms
+2019-11-19 11:40:59.977  INFO 25293 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:41:00.008  INFO 25293 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:41:00.038  WARN 25293 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:41:00.124  INFO 25293 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:41:00.126  INFO 25293 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.017 seconds (JVM running for 1.317)
+2019-11-19 11:41:00.127  INFO 25293 --- [main] ication$$EnhancerBySpringCGLIB$$372fab41 : class com.wong.CursoSpring1Application$$EnhancerBySpringCGLIB$$372fab41
+2019-11-19 11:42:39.467  INFO 25293 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:42:39.471  INFO 25293 --- [RMI TCP Connection(12)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:42:46.233  INFO 25409 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 25409 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:42:46.234  INFO 25409 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:42:46.582  INFO 25409 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:42:46.593  INFO 25409 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-11-19 11:42:46.747  INFO 25409 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:42:46.900  INFO 25409 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:42:46.904  INFO 25409 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:42:46.904  INFO 25409 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:42:46.947  INFO 25409 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:42:46.947  INFO 25409 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 687 ms
+2019-11-19 11:42:47.109  INFO 25409 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:42:47.159  INFO 25409 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:42:47.198  WARN 25409 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:42:47.302  INFO 25409 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:42:47.304  INFO 25409 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.26 seconds (JVM running for 1.949)
+2019-11-19 11:42:47.306  INFO 25409 --- [main] ication$$EnhancerBySpringCGLIB$$e79f420f : class com.wong.CursoSpring1Application$$EnhancerBySpringCGLIB$$e79f420f
+2019-11-19 11:45:40.717  INFO 25409 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:45:40.720  INFO 25409 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:45:41.863  INFO 25675 --- [main] com.wong.CursoSpring1Application         : Starting CursoSpring1Application on julio-wong with PID 25675 (/home/julio/Documents/Repositories/curso-spring-1/target/classes started by julio in /home/julio/Documents/Repositories/curso-spring-1)
+2019-11-19 11:45:41.864  INFO 25675 --- [main] com.wong.CursoSpring1Application         : No active profile set, falling back to default profiles: default
+2019-11-19 11:45:42.226  INFO 25675 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 11:45:42.236  INFO 25675 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-11-19 11:45:42.402  INFO 25675 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 11:45:42.534  INFO 25675 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 11:45:42.539  INFO 25675 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 11:45:42.539  INFO 25675 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 11:45:42.599  INFO 25675 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 11:45:42.599  INFO 25675 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 709 ms
+2019-11-19 11:45:42.761  INFO 25675 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 11:45:42.801  INFO 25675 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-19 11:45:42.839  WARN 25675 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-11-19 11:45:42.954  INFO 25675 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 11:45:42.958  INFO 25675 --- [main] com.wong.CursoSpring1Application         : Started CursoSpring1Application in 1.279 seconds (JVM running for 1.625)
+2019-11-19 11:45:42.959  INFO 25675 --- [main] ication$$EnhancerBySpringCGLIB$$d53c0fdd : class com.wong.CursoSpring1Application$$EnhancerBySpringCGLIB$$d53c0fdd
+2019-11-19 11:45:43.242  INFO 25675 --- [main] ication$$EnhancerBySpringCGLIB$$d53c0fdd : Tenemos esta cantidad de permisos: 6
+2019-11-19 11:51:11.285  INFO 25675 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 11:51:11.289  INFO 25675 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
